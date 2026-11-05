@@ -1,0 +1,3 @@
+AngelPlaner
+index.html            -> Hauptapp (im Browser oeffnen, Doppelklick)
+satellit-version.html -> aeltere Version mit echter Satellitenkarte (braucht Internet)
