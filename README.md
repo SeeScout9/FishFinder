@@ -1,19 +1,20 @@
 # AngelPlaner
 
-Fischer-App im Browser: Spot- und Fischwahl, Angelplan mit Ködern, abhakbare Packliste, Aktivitätsdiagramme, Fischkarte mit Hitzekarte, Fangbuch mit Fotos, Fischlexikon und Knotenanleitungen.
+Eigenständige Fischer-Website (eine einzige `index.html`, kein Build, keine Installation).
 
-## Dateien
-- `index.html` – Hauptapp (eine einzige Datei, keine Installation nötig)
-- `satellit-version.html` – ältere Version mit echter Satellitenkarte (Leaflet + Esri, braucht Internet)
+## Funktionen
+- Feed, Angelplan (Spot, Fisch, Köder, Farben, Technik), abhakbare Packliste
+- Fischkarte mit Satellitenbild (Esri) und Fisch-Hitzekarte, Filter nach Fisch und Köder
+- Prognose mit Live-Wetter (Open-Meteo): Temperatur, Wind, Luftdruck-Trend, Bewölkung, 8-Tage-Vorhersage, plus Beißindex, Jahres-, Wassertemperatur- und Mondverlauf
+- Fangbuch mit Fotos, Statistik, Abzeichen; Fischlexikon, Köder-Guide, Knotenanleitungen
 
-## Auf GitHub veröffentlichen (GitHub Pages)
-1. Neues Repository erstellen und alle Dateien hochladen.
-2. Im Repository: Settings → Pages → Branch `main` und Ordner `/ (root)` wählen → Save.
-3. Nach ca. 1 Minute ist die App unter `https://DEIN-NAME.github.io/REPO-NAME/` erreichbar.
-
-Auf GitHub Pages funktioniert auch die Satellitenkarte unter `/satellit-version.html`.
+## Veröffentlichen mit GitHub Pages
+1. Neues Repository erstellen, alle Dateien aus der ZIP hochladen (index.html muss im Hauptordner liegen).
+2. Settings → Pages → Branch `main`, Ordner `/ (root)` → Save.
+3. Nach ca. 1 Minute: `https://DEIN-NAME.github.io/REPO-NAME/`
 
 ## Hinweise
-- Fischdichten, Aktivität und Wetter sind Beispiel- und Schätzwerte, keine Live-Daten.
-- Fangbuch und Fotos werden nur lokal im Browser gespeichert (localStorage).
+- Fischdichten und Aktivität sind Beispiel- und Schätzwerte, keine echten Fangdaten.
+- Fangbuch und Fotos liegen nur lokal im Browser (localStorage).
 - Beachte Patent, Schonzeiten und Schonmasse deines Kantons.
+- Kartenbilder: Esri World Imagery. Wetter: Open-Meteo (open-meteo.com).
